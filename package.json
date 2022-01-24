@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:server" : "node index.js",
+    "dev:server": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "git-commit-msg-linter": "^4.0.7"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
   }
 }
